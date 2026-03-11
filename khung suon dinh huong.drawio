@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Trang-1" id="ufRt88TwXU_460j1X5I7">
+    <mxGraphModel dx="1035" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Xác định&amp;nbsp;Mục tiêu nghiên cứu" vertex="1">
+          <mxGeometry height="40" width="240" x="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-122" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Thu thập dữ liệu&lt;div&gt;(Ảnh vệ tinh Landsat 8,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ranh giới hành chính Đà Nẵng)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tiền xử lý ảnh&lt;div&gt;(Hiệu chỉnh, Cắt ảnh, Lọc Median,...)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="270" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kênh Quang học: Band 3, 4, 5, 6" vertex="1">
+          <mxGeometry height="50" width="220" x="480" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kênh Nhiệt (Band 10):&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;1. Chuyển DN sang Bức xạ phổ Lλ&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;2. Tính Nhiệt độ sóng đen Tb" vertex="1">
+          <mxGeometry height="50" width="200" x="50" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-126" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-122" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-123" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-128" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-121" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-122" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="110" as="sourcePoint" />
+            <mxPoint x="570" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-130" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-123" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Cx-ELTcigrEtit2pvwEb-124" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-131" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-123" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Cx-ELTcigrEtit2pvwEb-125" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="305" as="sourcePoint" />
+            <mxPoint x="600" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tính toán các chỉ số bề mặt&lt;div&gt;(NDVI, NDBI, NDWI)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="480" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-133" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-124" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-132" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tính Tỷ lệ thực vật,&lt;div&gt;Độ phát xạ bề mặt&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="480" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-135" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-132" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-134" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tính Nhiệt độ bề mặt đất - LST" vertex="1">
+          <mxGeometry height="50" width="210" x="45" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-137" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-125" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-136" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-138" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-134" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-136" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="530" as="sourcePoint" />
+            <mxPoint x="600" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tính chỉ số Đảo nhiệt đô thị - UTFVI" vertex="1">
+          <mxGeometry height="50" width="240" x="45" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-141" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Phân tích tương quan&lt;div&gt;Hồi quy tuyến tính&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="480" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-142" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-132" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Cx-ELTcigrEtit2pvwEb-141" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="485" />
+              <mxPoint x="750" y="790" />
+            </Array>
+            <mxPoint x="600" y="420" as="sourcePoint" />
+            <mxPoint x="600" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-143" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-136" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Cx-ELTcigrEtit2pvwEb-141" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="420" as="sourcePoint" />
+            <mxPoint x="160" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-145" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-139" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Cx-ELTcigrEtit2pvwEb-141" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="595" as="sourcePoint" />
+            <mxPoint x="265" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-146" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-136" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="Cx-ELTcigrEtit2pvwEb-139" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="585" />
+              <mxPoint x="10" y="790" />
+            </Array>
+            <mxPoint x="20" y="590" as="sourcePoint" />
+            <mxPoint x="20" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-147" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-141" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Cx-ELTcigrEtit2pvwEb-149" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="595" as="sourcePoint" />
+            <mxPoint x="590" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Đánh giá biến động UHI&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Vai trò mảng xanh&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="240" x="470" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-149" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Thành lập Bản đồ chuyên đề&lt;div&gt;Biểu đồ tương quan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="460" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="Cx-ELTcigrEtit2pvwEb-150" edge="1" parent="1" source="Cx-ELTcigrEtit2pvwEb-149" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Cx-ELTcigrEtit2pvwEb-148" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="770" as="sourcePoint" />
+            <mxPoint x="600" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
