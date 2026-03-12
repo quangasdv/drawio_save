@@ -8,7 +8,7 @@
           <mxGeometry height="30" width="90" x="350.00390625" y="10.000737304687505" as="geometry" />
         </mxCell>
         <mxCell id="N11KCKj8GQleh8CAD8F9-49" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Người dùng&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Hệ thống&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="640" width="770" x="39.99685477120539" y="80.00175153459895" as="geometry" />
+          <mxGeometry height="640" width="770" x="28.996854771205392" y="60.00175153459895" as="geometry" />
         </mxCell>
         <mxCell id="N11KCKj8GQleh8CAD8F9-50" parent="N11KCKj8GQleh8CAD8F9-49" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="66" y="40" as="geometry" />
@@ -111,8 +111,8 @@
         </mxCell>
         <mxCell id="N11KCKj8GQleh8CAD8F9-72" edge="1" parent="1" source="N11KCKj8GQleh8CAD8F9-49" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="N11KCKj8GQleh8CAD8F9-49" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-76.81314522879461" y="-3868.2582484654017" as="sourcePoint" />
-            <mxPoint x="83.18685477120539" y="-3868.2582484654017" as="targetPoint" />
+            <mxPoint x="-87.81314522879461" y="-3888.2582484654017" as="sourcePoint" />
+            <mxPoint x="72.18685477120539" y="-3888.2582484654017" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
